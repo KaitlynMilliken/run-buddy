@@ -6,6 +6,11 @@ body{
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 60px;
 }
 
 /* styles for header elements */
@@ -47,4 +52,38 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline;
+}
+
+/* Jumbotron Styling */
+
+.hero{
+    height: 600px;
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer Styling */
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
 }
